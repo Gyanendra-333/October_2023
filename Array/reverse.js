@@ -1,6 +1,6 @@
-// Iterative Javascript program to reverse an array 
-
+// Iterative Javascript program to reverse an array
 /* Function to reverse arr[] from start to end*/
+
 function rvereseArray(arr, start, end) {
     while (start < end) {
         var temp = arr[start];

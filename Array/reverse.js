@@ -12,6 +12,7 @@ function rvereseArray(arr, start, end) {
 }
 
 /* Utility function to print an array */
+
 function printArray(arr, size) {
     for (var i = 0; i < size; i++) {
         console.log(arr[i]);
@@ -19,8 +20,10 @@ function printArray(arr, size) {
 }
 
 /* Driver function to test above functions */
+
 var arr = [1, 2, 3, 4, 5, 6];
 var n = 6;
+
 // To print original array 
 printArray(arr, n);
 

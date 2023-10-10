@@ -1,6 +1,6 @@
 Array Operations in JavaScript.
 
-1. Traversiong
+1. Traversiong - Done
 2. Insertion
 3. Deletion 
 4. Sortion

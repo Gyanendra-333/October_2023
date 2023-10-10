@@ -1,0 +1,8 @@
+Array Operations in JavaScript.
+
+1. Traversiong
+2. Insertion
+3. Deletion 
+4. Sortion
+5. Searching
+6. Merging.

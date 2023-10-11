@@ -6,3 +6,8 @@ Array Operations in JavaScript.
 4. Sortion
 5. Searching
 6. Merging.
+
+
+=> Splice Function => splice(index-position,no.of-Deletion,insert-new-value)
+
+example => data.splice(3,0,100);

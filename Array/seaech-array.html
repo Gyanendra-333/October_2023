@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Element in Array</title>
+    <script>
+
+        let data = [10, 20, 30, 40, 50, 60];
+        let item = 30;
+        let index = [];
+
+        for (let i = 0; i < data.length; i++) {
+            if (data[i] === item) {
+                index = i;
+                break;
+            }
+        }
+        console.warn(index);
+        console.warn(data.indexOf(item))
+
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

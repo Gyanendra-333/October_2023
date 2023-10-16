@@ -4,8 +4,8 @@ Array Operations in JavaScript.
 2. Insertion - Done
 3. Deletion -Done
 5. Searching -Done
-4. Sorting
-6. Merging.
+4. Sorting-Done
+6. Merging. -Done
 
 
 => Splice Function => splice(index-position,no.of-Deletion,insert-new-value)

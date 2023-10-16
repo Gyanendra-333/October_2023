@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Recursion</title>
+
+    <script>
+
+        function reverseData(data, start, end) {
+            if (start <= end) {
+                temp = data[start];
+                data[start] = data[end];
+                data[end] = temp;
+                reverseData(data, start + 1, end - 1);
+            }
+            console.log(data);
+        }
+        let data = [1, 2, 3, 4, 5, 6];
+        reverseData(data, 0, data.length - 1);
+
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

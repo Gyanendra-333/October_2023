@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reverse Stack</title>
+
+    <script>
+
+        let data = [];
+        let currentSize = data.length;
+
+        function push(newVal) {
+            data[currentSize] = newVal;
+            currentSize++;
+        }
+        function pop() {
+            currentSize--;
+            data.length = currentSize;
+        }
+        push(20);
+        push(30);
+        push(20);
+        pop();
+        console.log(data);
+    </script>
+
+</head>
+
+<body>
+
+</body>
+
+</html>

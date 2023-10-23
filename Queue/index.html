@@ -4,7 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Queue</title>
+    <title>Queue FIFO</title>
+    <script>
+
+        let queue = [];
+        let currentSize = queue.length;
+        let max = 5;
+
+        function enqueue(newVal) {
+            if (currentSize >= max) {
+                alert("Queue is fulled");
+            } else {
+                queue[currentSize] = newVal;
+                currentSize++;
+            }
+        }
+        function display() {
+            console.log(queue);
+        }
+        function deQueue() {
+            if (currentSize > 0) {
+                for (let i = 0; i < queue.length; i++) {
+                    queue[i] = queue[i + 1];
+                }
+                currentSize--;
+                queue.length = currentSize;
+            } else {
+                alert("Queue is alreday empty")
+            }
+
+        }
+        enqueue(10);
+        enqueue(10);
+        enqueue(10);
+        enqueue(10);
+        enqueue(10);
+        deQueue();
+
+    </script>
 </head>
 
 <body>

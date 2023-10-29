@@ -4,6 +4,7 @@
 // Function to show the working of Meta binary search
 function bsearch(A, key_to_search) {
     let n = A.length;
+
     // Set number of bits to represent largest array index
     let lg = parseInt(Math.log(n - 1) / Math.log(2)) + 1;
 

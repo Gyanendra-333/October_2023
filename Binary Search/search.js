@@ -24,7 +24,6 @@ function bsearch(A, key_to_search) {
         if ((new_pos < n) && (A[new_pos] <= key_to_search))
             pos = new_pos;
     }
-
     // if element found return pos otherwise -1
     return ((A[pos] == key_to_search) ? pos : -1);
 }

@@ -30,4 +30,4 @@ function bsearch(A, key_to_search) {
 }
 
 let A = [-2, 10, 100, 250, 32315];
-document.write(bsearch(A, 10));
+console.log(bsearch(A, 10));

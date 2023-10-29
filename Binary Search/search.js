@@ -2,6 +2,7 @@
 // Javascript implementation of above approach
 
 // Function to show the working of Meta binary search
+
 function bsearch(A, key_to_search) {
     let n = A.length;
 

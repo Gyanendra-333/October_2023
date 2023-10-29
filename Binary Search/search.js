@@ -28,6 +28,5 @@ function bsearch(A, key_to_search) {
     // if element found return pos otherwise -1
     return ((A[pos] == key_to_search) ? pos : -1);
 }
-
 let A = [-2, 10, 100, 250, 32315];
 console.log(bsearch(A, 10));

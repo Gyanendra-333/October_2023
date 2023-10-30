@@ -21,3 +21,4 @@ function binarySearch(arr, l, r, x) {
     return -1;
 }
 
+console.log(binarySearch(arr, l, r, x))

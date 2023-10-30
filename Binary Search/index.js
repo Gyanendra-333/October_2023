@@ -1,6 +1,7 @@
 
 // A recursive binary search function. It returns location of x in
 // given array arr[l..r] is present, otherwise -1
+
 function binarySearch(arr, l, r, x) {
     if (r >= l) {
         var mid = l + (r - l) / 2;

@@ -21,4 +21,5 @@ function binarySearch(arr, l, r, x) {
     return -1;
 }
 
+let arr = [1, 2, 5, 3, 4, 7];
 console.log(binarySearch(arr, l, r, x))

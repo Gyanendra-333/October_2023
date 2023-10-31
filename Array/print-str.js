@@ -15,6 +15,6 @@ function printIndex(str, s) {
     }
 }
 
-var str1 = "GeeksforGeeks";
-var str2 = "Geeks";
+var str1 = "Relevel";
+var str2 = "By Unacademy";
 printIndex(str1, str2);
